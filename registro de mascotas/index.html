@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Arca de Noé 2.0 - No se garantiza que floten</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Registro de mascotas</h1>
+    <form id="formulario">
+        <label>Nombre de la mascota:
+            <input type="text" id="nombre" placeholder="Ingresa un nombre" required>
+        </label><br><br>
+        <label>Tipo de mascota: 
+            <select id="tipos">
+                <option>Perro</option>
+                <option>Gato</option>
+                <option>Tortuga</option>
+            </select>
+        </label><br><br>
+        <label>Edad de la mascota:
+            <input type="number" id="edad" min="0" required>
+        </label><br><br>
+        <label>Nombre del dueño:
+            <input type="text" id="duenio" required>
+        </label><br><br>
+        <label>Está vacunado?
+            <label><input type="radio" name="vacunado" value="si" required>Si</label>
+            <label><input type="radio" name="vacunado" value="no">No</label>
+        </label><br><br>
+        <button type="submit">Registrar mascota</button>
+    </form>
+
+    <div class="resultados" id="listadoMascotas"></div>
+    
+</body>
+</html>
