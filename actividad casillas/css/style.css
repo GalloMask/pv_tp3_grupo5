@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+.tabla {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
+  gap: 5px;
+  justify-content: center;
+}
+input {
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.resultado {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: darkblue;
+}
