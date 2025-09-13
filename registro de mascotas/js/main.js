@@ -1,3 +1,5 @@
+import { agregarMascota } from './mascotas.js';
+
 // Formulario por ID
 const formulario = document.getElementById("formulario");
 
