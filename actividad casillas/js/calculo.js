@@ -18,3 +18,12 @@ document.addEventListener("keydown", (e) => {
     });
   }
 });
+// Funcion calcular
+function calcularX(){
+  // Obtener referencias a los elementos del DOM
+  const resultado = document.getElementById("resultado");
+
+  // Obtener valores de las casillas
+  let a1 = document.getElementById("a1").value;
+
+}
