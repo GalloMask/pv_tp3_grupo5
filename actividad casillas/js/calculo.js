@@ -76,4 +76,10 @@ let valorX = null;
             valorX = col.arriba + col.medio;
         }
     }
+    //Escirno que valor tiene x o sino se encotro ninguna
+    if (valorX !== null) {
+        resultado.innerText = "El valor de X es: " + valorX;
+    } else {
+        resultado.innerText = "No se encontró ninguna X";
+    }
 }
